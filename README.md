@@ -24,15 +24,32 @@ writing-an-interpreter-in-go/
 │   └── lexer_test.go
 ├── token/         # Token definitions and types
 │   └── token.go
+├── repl/          # Read-Eval-Print Loop implementation
+│   └── repl.go
+├── main.go        # Entry point for the interpreter
 └── go.mod         # Go module definition file
 ```
 
 ## Current Progress
 
-- [x] Chapter 1: Lexing - Basic token definition and lexer implementation
+- [x] Chapter 1: Lexing
+  - [x] Token definition and representation
+  - [x] Lexer implementation for basic tokens (operators, delimiters)
+  - [x] Extended lexer with keywords and identifiers
+  - [x] Support for integers
+  - [x] Multi-character operators (==, !=)
+  - [x] REPL implementation
 - [ ] Chapter 2: Parsing
 - [ ] Chapter 3: Evaluation
 - [ ] Chapter 4: Extending the Interpreter
+
+## Running the Interpreter
+
+To run the Monkey REPL:
+
+```bash
+go run main.go
+```
 
 ## Running Tests
 
