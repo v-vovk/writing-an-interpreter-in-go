@@ -16,16 +16,17 @@ const (
 	INT   = "INT"   // 123456
 
 	// Operators
-	ASSIGN = '='
-	PLUS   = '+'
+	ASSIGN = "="
+	PLUS   = "+"
 
 	// Delimiters
-	COMMA     = ','
-	SEMICOLON = ';'
-	LPAREN    = '('
-	RPAREN    = ')'
-	LBRACE    = '{'
-	RBRACE    = '}'
+	COMMA     = ","
+	SEMICOLON = ";"
+
+	LPAREN = "("
+	RPAREN = ")"
+	LBRACE = "{"
+	RBRACE = "}"
 
 	// Keywords
 	FUNCTION = "FUNCTION"
